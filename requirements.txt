@@ -1,0 +1,7 @@
+numpy==2.3.5
+pandas==2.3.3
+torch==2.12.1
+torch-geometric==2.8.0
+PyYAML
+scikit-learn
+xgboost
