@@ -1,0 +1,45 @@
+{
+  "finance_features": [
+    "net_income",
+    "operating_income_growth",
+    "operating_cash_flow_growth",
+    "current_ratio",
+    "return_on_assets",
+    "return_on_equity",
+    "gross_profit_margin",
+    "net_profit_margin",
+    "quick_ratio",
+    "debt_to_assets",
+    "debt_to_equity_ratio",
+    "net_income_growth",
+    "total_assets_growth",
+    "total_assets_turnover",
+    "receivables_turnover",
+    "inventory_turnover",
+    "operating_cash_flow_to_revenue",
+    "cash_recovery_ratio",
+    "operating_revenue",
+    "research_and_development_expense",
+    "net_income_attributable_to_parent",
+    "net_operating_cash_flow",
+    "net_cash_increase",
+    "net_investing_cash_flow",
+    "net_financing_cash_flow"
+  ],
+  "tcrf_features": [
+    "isolation_risk",
+    "breadth_risk"
+  ],
+  "formal_seeds": [
+    1,
+    7,
+    11,
+    17,
+    21,
+    33,
+    42,
+    77,
+    1001,
+    2024
+  ]
+}
