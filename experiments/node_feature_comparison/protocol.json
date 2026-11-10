@@ -1,0 +1,59 @@
+{
+  "seeds": [
+    1,
+    7,
+    11,
+    17,
+    21,
+    33,
+    42,
+    77,
+    1001,
+    2024
+  ],
+  "model_ast": {
+    "Backbone": "c2e574a23fb7be370ac27c038a4e4361dfa3f7c53238176862b621bf7f84d615",
+    "Model": "ee9f0d9c9cb17039d895704980b211b92c78f0e34cb1500090cf742eafc994ac"
+  },
+  "pos_weight": 8.898305084745763,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "dropout": 0.3,
+  "max_epochs": 300,
+  "patience": 30,
+  "checkpoint": "strict minimum Valid weighted BCE loss",
+  "threshold": "Valid grid5..95 /100; max(F1,ACC,-threshold)",
+  "training_strategy": "WEIGHTED_BCE_ONLY",
+  "std_ddof": 1,
+  "input_dim": 27,
+  "input_tensor_hashes": {
+    "G0_FINANCE_ONLY": {
+      "Train": "0adb86089570a4c7498e4e947c3407843b405203714705a598f05dd2a52ee012",
+      "Valid": "d9b62650b60f5dc0d3a37ee9536883d865db15b5a864225c475097ff4198d6a5",
+      "Test": "eca645b0a3528adf48da15b68916a28f1b57447ac678be7c17eb1dfd8f938465"
+    },
+    "G1_PRESSURE_ONLY": {
+      "Train": "298eeeea792cdd5ee5cc56a29cbf7ac268aaa1bf48c3fbaf33ba8678d7346f91",
+      "Valid": "5259584b220bedf611eef5c644720037874473583c2ee2ad219f6e3f8fb24e05",
+      "Test": "a6b184e54d2b54f54cb8ef01261ebcc153aaeced159916f2a5839b31b3a50232"
+    },
+    "G2_DIRECT_TECH": {
+      "Train": "063f899e72db17da84a27d49617792f40c73c2e0073bf9b5b50dad4a99f05525",
+      "Valid": "b77a917d500a75950ca0498541a25e22b034211fb7ddb753f5158f509242cd8a",
+      "Test": "7edfce9c52ca335e40051a6e76944c14d7757c18b893eceb6b611b0c20a7dd86"
+    },
+    "G3_TCRF": {
+      "Train": "b8ac3e7604e18cf9d497fe1e8739667981adc47158236f13f22bbea0595b0229",
+      "Valid": "a1c142077f9d64adf55d237cea4c26607c37c0c8184e65f8368c8048f9409858",
+      "Test": "96d0a1f4bc2c06fd1254721aa13950296a139a377ca9407bc4b5cc297f20eef1"
+    }
+  },
+  "original_graph_sha256": "5afaa493c8c1fdeee0ca25404af8e34a345124541958dc07290d0d81986f335d",
+  "historical_groups": {
+    "G0_FINANCE_ONLY": "M2_GRAPH_ONLY",
+    "G1_PRESSURE_ONLY": "G1_PRESSURE_ONLY",
+    "G2_DIRECT_TECH": "G2_RAW_TECH",
+    "G3_TCRF": "M3_FULL"
+  }
+}

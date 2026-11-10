@@ -1,0 +1,61 @@
+path,category,description,required_for,generated_by
+.gitignore,documentation,.gitignore,formal modeling and verification,release organization
+configs/design_comparisons.json,configs,design comparisons,formal modeling and verification,release organization
+configs/formal_experiments.yaml,configs,formal experiments,formal modeling and verification,release organization
+configs/formal_model.yaml,configs,formal model,formal modeling and verification,release organization
+configs/formal_training.yaml,configs,formal training,formal modeling and verification,release organization
+data/graph/direct_technology_edges.csv,data,direct technology edges,formal modeling and verification,verified formal experimental assets
+data/graph/jaccard_ipc_edges.csv,data,jaccard ipc edges,formal modeling and verification,verified formal experimental assets
+data/graph/joint_edges.csv,data,joint edges,formal modeling and verification,verified formal experimental assets
+data/graph/patent_only_edges.csv,data,patent only edges,formal modeling and verification,verified formal experimental assets
+data/graph/text_patent_edges.csv,data,text patent edges,formal modeling and verification,verified formal experimental assets
+data/metadata/feature_schema.json,data,feature schema,formal modeling and verification,verified formal experimental assets
+data/metadata/full_validation_reference.csv,data,full validation reference,formal modeling and verification,verified formal experimental assets
+data/metadata/labels.csv,data,labels,formal modeling and verification,verified formal experimental assets
+data/model_input/direct_technology.csv,data,direct technology,formal modeling and verification,verified formal experimental assets
+data/model_input/financial_sequences.npz,data,financial sequences,formal modeling and verification,verified formal experimental assets
+data/model_input/jaccard_ipc.csv,data,jaccard ipc,formal modeling and verification,verified formal experimental assets
+data/model_input/node_features.csv,data,node features,formal modeling and verification,verified formal experimental assets
+data/model_input/patent_only.csv,data,patent only,formal modeling and verification,verified formal experimental assets
+data/model_input/structural_baseline/node_features.npy,data,node features,formal modeling and verification,verified formal experimental assets
+data/model_input/structural_baseline/quarter_graphs.npz,data,quarter graphs,formal modeling and verification,verified formal experimental assets
+data/model_input/text_patent.csv,data,text patent,formal modeling and verification,verified formal experimental assets
+data/technology/ipc_breadth.csv,data,ipc breadth,formal modeling and verification,verified formal experimental assets
+docs/data_schema.md,docs,data schema,formal modeling and verification,release organization
+docs/experiment_protocol.md,docs,experiment protocol,formal modeling and verification,release organization
+docs/file_manifest.csv,docs,file manifest,formal modeling and verification,release organization
+README.md,documentation,README,formal modeling and verification,release organization
+requirements.txt,documentation,requirements,formal modeling and verification,release organization
+results/ablation/module_ablation_per_seed.csv,results,module ablation per seed,formal modeling and verification,verified formal experimental assets
+results/ablation/module_ablation_summary.csv,results,module ablation summary,formal modeling and verification,verified formal experimental assets
+results/design_comparisons/design_comparison_per_seed.csv,results,design comparison per seed,formal modeling and verification,verified formal experimental assets
+results/design_comparisons/design_comparison_summary.csv,results,design comparison summary,formal modeling and verification,verified formal experimental assets
+results/main/lr_matched_per_seed_metrics.csv,results,lr matched per seed metrics,formal modeling and verification,verified formal experimental assets
+results/main/model_comparison.csv,results,model comparison,formal modeling and verification,verified formal experimental assets
+results/main/tcrf_mrgf_per_seed_metrics.csv,results,tcrf mrgf per seed metrics,formal modeling and verification,verified formal experimental assets
+results/main/tcrf_mrgf_summary.csv,results,tcrf mrgf summary,formal modeling and verification,verified formal experimental assets
+scripts/run_design_comparisons.py,scripts,run design comparisons,formal modeling and verification,release organization
+scripts/run_financial_baselines.py,scripts,run financial baselines,formal modeling and verification,release organization
+scripts/run_full_pipeline.py,scripts,run full pipeline,formal modeling and verification,release organization
+scripts/run_main_experiment.py,scripts,run main experiment,formal modeling and verification,release organization
+scripts/run_module_ablation.py,scripts,run module ablation,formal modeling and verification,release organization
+scripts/run_neural_baselines.py,scripts,run neural baselines,formal modeling and verification,release organization
+scripts/verify_release.py,scripts,verify release,formal modeling and verification,release organization
+src/features/build_tcrf.py,src,build tcrf,formal modeling and verification,release organization
+src/graph/build_multirelational_graph.py,src,build multirelational graph,formal modeling and verification,release organization
+src/models/baselines.py,src,baselines,formal modeling and verification,release organization
+src/models/sequence_baselines.py,src,sequence baselines,formal modeling and verification,release organization
+src/models/structural_baseline.py,src,structural baseline,formal modeling and verification,release organization
+src/models/tcrf_mrgf.py,src,tcrf mrgf,formal modeling and verification,release organization
+src/training/matched_threshold.py,src,matched threshold,formal modeling and verification,release organization
+src/training/sequence_selection.py,src,sequence selection,formal modeling and verification,release organization
+src/training/train_model.py,src,train model,formal modeling and verification,release organization
+src/training/training_utils.py,src,training utils,formal modeling and verification,release organization
+docs/node_feature_comparison.md,documentation,Full Joint node-feature comparison,offline verification and formal comparison,formal experiment archive or portable adapter
+experiments/node_feature_comparison/paired_comparisons.csv,experiment,Full Joint node-feature comparison,offline verification and formal comparison,formal experiment archive or portable adapter
+experiments/node_feature_comparison/paired_seed_differences.csv,experiment,Full Joint node-feature comparison,offline verification and formal comparison,formal experiment archive or portable adapter
+experiments/node_feature_comparison/per_seed_results.csv,experiment,Full Joint node-feature comparison,offline verification and formal comparison,formal experiment archive or portable adapter
+experiments/node_feature_comparison/pressure.csv,experiment,Full Joint node-feature comparison,offline verification and formal comparison,formal experiment archive or portable adapter
+experiments/node_feature_comparison/protocol.json,experiment,Full Joint node-feature comparison,offline verification and formal comparison,formal experiment archive or portable adapter
+experiments/node_feature_comparison/run.py,experiment,Full Joint node-feature comparison,offline verification and formal comparison,formal experiment archive or portable adapter
+experiments/node_feature_comparison/summary_results.csv,experiment,Full Joint node-feature comparison,offline verification and formal comparison,formal experiment archive or portable adapter
